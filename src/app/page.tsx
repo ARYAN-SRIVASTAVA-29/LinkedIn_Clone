@@ -3,7 +3,9 @@ import HeroSection from "@/components/HeroSection";
 import MusicSchoolTestimonials from "@/components/TestimonialCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Instructors from "@/components/Instructors";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
   <WhyChooseUs/>
   <MusicSchoolTestimonials/>
   <UpcomingWebinars/>
+  <Instructors/>
+  <Footer/>
    </main>
    </>
   );
